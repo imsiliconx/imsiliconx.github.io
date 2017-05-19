@@ -34,9 +34,9 @@ ul.am-dropdown-content>li>a:focus, ul.am-dropdown-content>li>a:hover { backgroun
 .am-list, .am-topbar { margin-bottom: 0;}
 .get {background: top center no-repeat;color: rgba(0,0,0,.3);text-align: center;height: 810px;}
 .get-title {display: inline-block; padding-top: 45px;}
-.get_font_left { width: 112px; height: 115px;float: left;  }
+.get_font_left { height: 115px;float: left;  }
 .get_font_center { width: auto; height: 115px; margin: 0 10px; line-height: 115px; float: left; font-size: 65px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}
-.get_font_rigth {width: 112px; height: 115px; float: left;vertical-align: middle;}
+.get_font_rigth {height: 115px; float: left;vertical-align: middle;}
 .get_font_left  , .get_font_rigth  {line-height: 95px;}
 .banner_ios { background: url(../img/r_bg.png) #ff5656 no-repeat; background-position: -500px 0; }
 .banner_android {  background: url(../img/l_bg.png) #54d669 no-repeat; background-position: -500px 0; }
