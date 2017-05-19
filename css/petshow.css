@@ -32,10 +32,10 @@ ul.am-dropdown-content>li>a:focus, ul.am-dropdown-content>li>a:hover { backgroun
 .amz-container { max-width: 1500px; margin: 0 auto;}
 .am-topbar-logo img{ width: 130px; height: 37px; vertical-align: top; margin-top:7px; }
 .am-list, .am-topbar { margin-bottom: 0;}
-.get {background: url(../img/banner_bg.png) top center no-repeat;color: #fff;text-align: center;height: 278px;}
-.get-title {display: inline-block; padding-top: 25px;}
+.get {background: top center no-repeat;color: rgba(0,0,0,.3);text-align: center;height: 810px;}
+.get-title {display: inline-block; padding-top: 45px;}
 .get_font_left { width: 112px; height: 115px;float: left;  }
-.get_font_center { width: auto; height: 115px; margin: 0 20px; line-height: 115px; float: left; font-size: 115px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}
+.get_font_center { width: auto; height: 115px; margin: 0 10px; line-height: 115px; float: left; font-size: 115px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}
 .get_font_rigth {width: 112px; height: 115px; float: left;vertical-align: middle;}
 .get_font_left  , .get_font_rigth  {line-height: 95px;}
 .banner_ios { background: url(../img/r_bg.png) #ff5656 no-repeat; background-position: -500px 0; }
@@ -362,7 +362,7 @@ ul.am-tabs-nav.am-cf.am_cf { margin-right: 0; margin-bottom: 0; margin-left: 0; 
 ul.am-tabs-nav.am-cf.am_cf { background: #fafafa;}
 #wrapper{ background: #fafafa;}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 50px) {
 .ztlb_nr_blockc { width: 97%; padding: 10px; margin: 0 auto; padding-top: 15px; padding-bottom: 15px;  height: auto; position: relative; margin-bottom: 20px;}
 .ztlb_nr_blockc_r_nr {  padding-bottom: 10px;}
 .ztlb_nr_blockc_r_info { display: none;}
@@ -408,7 +408,7 @@ ul.am-tabs-nav.am-cf.am_cf { background: #fafafa;}
  ul.am-dropdown-content>li>a { font-size: 14px; text-align: left; text-indent: 1em;  list-style-type:circle;}
  .get-title {display: inline-block; padding-top: 30px; }
 .get_font_left { width: 40px; height: 50px;float: left; }
-.get_font_center { width: auto; height:50px; margin: 0 20px; line-height: 50px; float: left; font-size: 50px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}
+.get_font_center { width: auto; height:50px; line-height: 50px; float: left; font-size: 50px; color: #ff5656; font-family: 'avantgarde_md_btmedium';}
 .get_font_rigth {width: 40px; height: 50px; float: left;vertical-align: middle;}
 .get_font_left  , .get_font_rigth  {line-height: 45px; }
 .get_font_left img , .get_font_rigth img  {width: 40px;  }

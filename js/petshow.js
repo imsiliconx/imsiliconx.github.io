@@ -72,7 +72,15 @@ $('.am_imglist_user_font').each(
   prefix : '',
   suffix : ''
 };
-var banner_num = new CountUp("banner_num", 956000, 956214, 0, 5, options);
+
+// 计算时间
+var today = new Date();
+var first_day = new Date("1/10/2017");
+var one_day = 24*60*60*1000;
+var mili_secns = today.getTime() - first_day.getTime();
+var days = Math.floor(mili_secns / one_day);
+
+var banner_num = new CountUp("banner_num", 0, days, 0, 4, options);
 banner_num.start();
 });
 
